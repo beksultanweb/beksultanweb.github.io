@@ -26,6 +26,8 @@ header{
 	margin-top: 20px;
 }
 .header-button{
+	display: inline-block;
+	text-decoration: none;
 margin-top: 33px;
 box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
 border-radius: 50px;
@@ -37,6 +39,12 @@ padding-top: 17px;
 padding-left: 55px;
 padding-bottom: 17px;
 padding-right: 55px;
+-webkit-transition: 0.2em;
+-o-transition: 0.2em;
+transition: 0.2em;
+}
+.header-button:hover{
+	box-shadow: none;
 }
 header small{
 	font-size: 12px;
@@ -135,6 +143,13 @@ footer{
 	font-size: 18px;
 	border-radius: 50px;
 	padding: 12px 40px;
+	-webkit-transition: 0.2em;
+	-o-transition: 0.2em;
+	transition: 0.2em;
+}
+.footer-button:hover{
+	background-color: #fff;
+	color: #3a7dfd;
 }
 .footer-cta-block{
 	text-align: center;
